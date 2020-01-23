@@ -1,0 +1,12 @@
+{'id': 'biological_cess', 'children': [{'id': 'behavior', 'relation': 'is_a'}, {'id': 'biological_adhesion', 'relation': 'part_of'}]}
+{'id': 'behavior', 'children': [{'id': 'cell_adhesion', 'relation': 'is_a'}]}
+{'id': 'biological_adhesion', 'children': [{'id': 'cell_adhesion', 'relation': 'is_a'}]}
+{'id': 'cell_adhesion', 'children': []}
+{'id': 'molecular_func', 'children': [{'id': 'binding', 'relation': 'is_a'}, {'id': 'alkene_binding', 'relation': 'part_of'}]}
+{'id': 'binding', 'children': [{'id': 'acyl_binding', 'relation': 'is_a'}]}
+{'id': 'acyl_binding', 'children': []}
+{'id': 'alkene_binding', 'children': []}
+{'id': 'something_binding', 'children': [{'id': 'ion_binding', 'relation': 'is_a'}, {'id': 'alkene_binding', 'relation': 'is_a'}, {'id': 'acyl_binding', 'relation': 'is_a'}]}
+{'id': 'ion_binding', 'children': [{'id': 'cation_binding', 'relation': 'is_a'}, {'id': 'anion_binding', 'relation': 'is_a'}]}
+{'id': 'cation_binding', 'children': []}
+{'id': 'anion_binding', 'children': []}

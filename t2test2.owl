@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://test.org/onto.owl"
+         xmlns="http://test.org/onto.owl#">
+
+<owl:Ontology rdf:about="http://test.org/onto.owl"/>
+
+<owl:Class rdf:about="#biological_cess">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#ass">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#behavior">
+  <rdfs:subClassOf rdf:resource="#biological_cess"/>
+</owl:Class>
+
+<owl:Class rdf:about="#biological_adhesion">
+  <rdfs:subClassOf rdf:resource="#biological_cess"/>
+</owl:Class>
+
+<owl:Class rdf:about="#molecular_func">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#binding">
+  <rdfs:subClassOf rdf:resource="#molecular_func"/>
+</owl:Class>
+
+<owl:Class rdf:about="#alkene_binding">
+  <rdfs:subClassOf rdf:resource="#molecular_func"/>
+  <rdfs:subClassOf rdf:resource="#something_binding"/>
+</owl:Class>
+
+<owl:Class rdf:about="#something_binding">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#ion_binding">
+  <rdfs:subClassOf rdf:resource="#something_binding"/>
+</owl:Class>
+
+<owl:Class rdf:about="#acyl_binding">
+  <rdfs:subClassOf rdf:resource="#something_binding"/>
+  <rdfs:subClassOf rdf:resource="#binding"/>
+</owl:Class>
+
+<owl:Class rdf:about="#therapeutic_agent">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#biological_process">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#molecular_function">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#drug">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#cell_adhesion">
+  <rdfs:subClassOf rdf:resource="#behavior"/>
+  <rdfs:subClassOf rdf:resource="#biological_adhesion"/>
+</owl:Class>
+
+<owl:Class rdf:about="#cation_binding">
+  <rdfs:subClassOf rdf:resource="#ion_binding"/>
+</owl:Class>
+
+<owl:Class rdf:about="#anion_binding">
+  <rdfs:subClassOf rdf:resource="#ion_binding"/>
+</owl:Class>
+
+
+</rdf:RDF>

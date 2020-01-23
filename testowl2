@@ -1,0 +1,1152 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://test.org/onto.owl"
+         xmlns="http://test.org/onto.owl#">
+
+<owl:Ontology rdf:about="http://test.org/onto.owl"/>
+
+<owl:Class rdf:about="#therapeutic_agent">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#biological_process">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#molecular_function">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#drug">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0008150">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0007582">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0000004">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0044699">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0008152">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0044236">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0044710">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0071704">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0009987">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0050875">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0044763">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0008151">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0043170">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0044237">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0043283">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0044259">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0006807">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0006725">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0034641">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0044238">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0046483">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#1901360">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0006139">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0055134">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0044260">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0090304">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0034960">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0050896">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051869">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0006950">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051716">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0033554">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0006259">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0006974">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0055132">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0034984">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0065007">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0050789">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0050791">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0019222">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0050794">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0044246">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051244">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0031323">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051171">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0080090">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0019219">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0060255">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0048583">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0080134">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0080135">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0006281">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051052">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#2001020">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0048519">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0043118">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0009892">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0044252">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0048523">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051243">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0031324">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051172">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0010605">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0045934">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0048585">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0048518">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0043119">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0009893">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0044253">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0048522">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051242">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0031325">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051173">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0010604">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0045935">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0048584">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0071840">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0071841">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0016043">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0044235">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0071842">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0006996">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#1902589">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0007049">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0007059">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0022402">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051276">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0098813">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0007001">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051277">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0048285">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0000278">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0007067">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0000280">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#1903047">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0007010">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0007017">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0000226">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0000819">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0140014">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0007051">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#1902850">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0043146">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0000070">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0007052">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051231">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0016359">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0030472">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0000071">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0043148">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051726">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0000074">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051128">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0033043">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0032886">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051493">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0010564">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0070507">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0007346">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051783">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0033044">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051983">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0090224">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0007088">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0033045">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0000022">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0032887">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0033047">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0060236">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0045786">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051129">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0010639">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0010948">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051985">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#2001251">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0045930">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051784">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0033046">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0045839">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0045787">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051130">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0010638">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0045931">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051785">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0090068">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0045840">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051984">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#2001252">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051495">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0044085">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0071843">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0022607">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0071844">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0009056">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0044712">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0044243">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0044248">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0061919">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0006914">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0016238">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0007033">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0016236">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0044086">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0034262">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0009894">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0031329">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0009896">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0010506">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0031331">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0044087">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0070925">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#1905037">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0009895">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0031330">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051179">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#1902578">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0033036">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051641">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#1902580">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0008104">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051640">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0008105">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0022613">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051234">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0050657">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051236">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0006913">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0000063">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0050658">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051168">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0015031">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0034613">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0046907">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0015831">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0016249">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#1902582">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0006886">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0032779">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0006405">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0006611">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0031503">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0071166">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0097349">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0071426">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0015931">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0006403">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051169">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0015833">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0045184">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0070727">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0006810">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0015457">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0044765">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0015460">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0071702">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0071705">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0042886">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0033750">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0042254">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051656">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0071428">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0033753">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0007046">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0032879">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051049">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0060341">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0032386">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051051">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0032387">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0046822">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0032880">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0070201">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0090087">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051223">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#1903827">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0033157">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051235">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0045185">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051651">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0033365">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0032507">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0034504">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0072595">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0044744">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#1904950">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051224">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#1903828">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0065008">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0046823">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0046825">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051457">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0090317">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0032239">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0032240">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0046831">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0090069">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#2000197">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0000054">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051050">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0032388">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#1904951">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051222">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#1903829">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0046824">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0090316">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0032241">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0044089">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051225">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051227">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051226">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0090307">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0031023">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051300">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0051426">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#1902115">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0090169">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0061804">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0110100">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#1905047">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#0032888">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+<owl:Class rdf:about="#1901673">
+  <rdfs:subClassOf rdf:resource="#biological_process"/>
+</owl:Class>
+
+
+</rdf:RDF>

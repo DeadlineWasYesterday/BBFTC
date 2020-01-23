@@ -1,0 +1,537 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://test.org/onto.owl"
+         xmlns="http://test.org/onto.owl#">
+
+<owl:Ontology rdf:about="http://test.org/onto.owl"/>
+
+<owl:Class rdf:about="#therapeutic_agent">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#biological_process_main">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#molecular_function_main">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#drug">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0045216">
+  <rdfs:subClassOf rdf:resource="#biological_process_main"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0007043">
+  <rdfs:subClassOf rdf:resource="#GO:0045216"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0120192">
+  <rdfs:subClassOf rdf:resource="#GO:0007043"/>
+  <rdfs:subClassOf rdf:resource="#GO:0120193"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:1904274">
+  <rdfs:subClassOf rdf:resource="#GO:0120192"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0019991">
+  <rdfs:subClassOf rdf:resource="#GO:0120192"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0090528">
+  <rdfs:subClassOf rdf:resource="#GO:0019991"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0070830">
+  <rdfs:subClassOf rdf:resource="#GO:0120192"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0016264">
+  <rdfs:subClassOf rdf:resource="#GO:0007043"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0002159">
+  <rdfs:subClassOf rdf:resource="#GO:0007043"/>
+  <rdfs:subClassOf rdf:resource="#GO:0002934"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0043297">
+  <rdfs:subClassOf rdf:resource="#GO:0007043"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0030913">
+  <rdfs:subClassOf rdf:resource="#GO:0007043"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0036058">
+  <rdfs:subClassOf rdf:resource="#GO:0007043"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0036059">
+  <rdfs:subClassOf rdf:resource="#GO:0036058"/>
+  <rdfs:subClassOf rdf:resource="#GO:0034333"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0036060">
+  <rdfs:subClassOf rdf:resource="#GO:0036058"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0034333">
+  <rdfs:subClassOf rdf:resource="#GO:0007043"/>
+  <rdfs:subClassOf rdf:resource="#GO:0034332"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0045186">
+  <rdfs:subClassOf rdf:resource="#GO:0034333"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0009663">
+  <rdfs:subClassOf rdf:resource="#GO:0045216"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0045217">
+  <rdfs:subClassOf rdf:resource="#GO:0045216"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0034334">
+  <rdfs:subClassOf rdf:resource="#GO:0045217"/>
+  <rdfs:subClassOf rdf:resource="#GO:0034332"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0045218">
+  <rdfs:subClassOf rdf:resource="#GO:0034334"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0002160">
+  <rdfs:subClassOf rdf:resource="#GO:0045217"/>
+  <rdfs:subClassOf rdf:resource="#GO:0002934"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:1990227">
+  <rdfs:subClassOf rdf:resource="#GO:0045217"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0034332">
+  <rdfs:subClassOf rdf:resource="#GO:0045216"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0120179">
+  <rdfs:subClassOf rdf:resource="#GO:0034332"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0002934">
+  <rdfs:subClassOf rdf:resource="#GO:0045216"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0035921">
+  <rdfs:subClassOf rdf:resource="#GO:0002934"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0120193">
+  <rdfs:subClassOf rdf:resource="#GO:0045216"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:1905071">
+  <rdfs:subClassOf rdf:resource="#GO:0120193"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:1904275">
+  <rdfs:subClassOf rdf:resource="#GO:1905071"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0110140">
+  <rdfs:subClassOf rdf:resource="#biological_process_main"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0062191">
+  <rdfs:subClassOf rdf:resource="#biological_process_main"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0062192">
+  <rdfs:subClassOf rdf:resource="#molecular_function_main"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0062193">
+  <rdfs:subClassOf rdf:resource="#molecular_function_main"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0062196">
+  <rdfs:subClassOf rdf:resource="#biological_process_main"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0062197">
+  <rdfs:subClassOf rdf:resource="#biological_process_main"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0071455">
+  <rdfs:subClassOf rdf:resource="#GO:0062197"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0071464">
+  <rdfs:subClassOf rdf:resource="#GO:0062197"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:1990451">
+  <rdfs:subClassOf rdf:resource="#GO:0062197"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0080169">
+  <rdfs:subClassOf rdf:resource="#GO:0062197"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0036447">
+  <rdfs:subClassOf rdf:resource="#GO:0062197"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0036448">
+  <rdfs:subClassOf rdf:resource="#GO:0036447"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0071470">
+  <rdfs:subClassOf rdf:resource="#GO:0062197"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0007231">
+  <rdfs:subClassOf rdf:resource="#GO:0071470"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0007234">
+  <rdfs:subClassOf rdf:resource="#GO:0007231"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0007232">
+  <rdfs:subClassOf rdf:resource="#GO:0007231"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0071472">
+  <rdfs:subClassOf rdf:resource="#GO:0071470"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0071475">
+  <rdfs:subClassOf rdf:resource="#GO:0071472"/>
+  <rdfs:subClassOf rdf:resource="#GO:0071474"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0061404">
+  <rdfs:subClassOf rdf:resource="#GO:0071475"/>
+  <rdfs:subClassOf rdf:resource="#GO:0036251"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0071477">
+  <rdfs:subClassOf rdf:resource="#GO:0071472"/>
+  <rdfs:subClassOf rdf:resource="#GO:0071476"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0071473">
+  <rdfs:subClassOf rdf:resource="#GO:0071472"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0043156">
+  <rdfs:subClassOf rdf:resource="#GO:0071473"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0061416">
+  <rdfs:subClassOf rdf:resource="#GO:0071472"/>
+  <rdfs:subClassOf rdf:resource="#GO:0061392"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0101007">
+  <rdfs:subClassOf rdf:resource="#GO:0061416"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0101008">
+  <rdfs:subClassOf rdf:resource="#GO:0101007"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0036251">
+  <rdfs:subClassOf rdf:resource="#GO:0061416"/>
+  <rdfs:subClassOf rdf:resource="#GO:0061393"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0061392">
+  <rdfs:subClassOf rdf:resource="#GO:0071470"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0061393">
+  <rdfs:subClassOf rdf:resource="#GO:0061392"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0061401">
+  <rdfs:subClassOf rdf:resource="#GO:0061393"/>
+  <rdfs:subClassOf rdf:resource="#GO:0071476"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0071474">
+  <rdfs:subClassOf rdf:resource="#GO:0071470"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0071476">
+  <rdfs:subClassOf rdf:resource="#GO:0071470"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0071471">
+  <rdfs:subClassOf rdf:resource="#GO:0071470"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0008627">
+  <rdfs:subClassOf rdf:resource="#GO:0071470"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:1990127">
+  <rdfs:subClassOf rdf:resource="#GO:0008627"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0071500">
+  <rdfs:subClassOf rdf:resource="#GO:0062197"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:1990442">
+  <rdfs:subClassOf rdf:resource="#GO:0071500"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0061403">
+  <rdfs:subClassOf rdf:resource="#GO:0071500"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0034599">
+  <rdfs:subClassOf rdf:resource="#GO:0062197"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0071447">
+  <rdfs:subClassOf rdf:resource="#GO:0034599"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0071448">
+  <rdfs:subClassOf rdf:resource="#GO:0071447"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0072736">
+  <rdfs:subClassOf rdf:resource="#GO:0071448"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0071449">
+  <rdfs:subClassOf rdf:resource="#GO:0071447"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0001324">
+  <rdfs:subClassOf rdf:resource="#GO:0034599"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0001320">
+  <rdfs:subClassOf rdf:resource="#GO:0001324"/>
+  <rdfs:subClassOf rdf:resource="#GO:0072353"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0034614">
+  <rdfs:subClassOf rdf:resource="#GO:0034599"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0072353">
+  <rdfs:subClassOf rdf:resource="#GO:0034614"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0001316">
+  <rdfs:subClassOf rdf:resource="#GO:0072353"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0001317">
+  <rdfs:subClassOf rdf:resource="#GO:0001316"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0070301">
+  <rdfs:subClassOf rdf:resource="#GO:0034614"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0071450">
+  <rdfs:subClassOf rdf:resource="#GO:0034614"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0071451">
+  <rdfs:subClassOf rdf:resource="#GO:0071450"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0071732">
+  <rdfs:subClassOf rdf:resource="#GO:0034614"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0071452">
+  <rdfs:subClassOf rdf:resource="#GO:0034614"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0071457">
+  <rdfs:subClassOf rdf:resource="#GO:0034614"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:1990737">
+  <rdfs:subClassOf rdf:resource="#GO:0062197"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0106236">
+  <rdfs:subClassOf rdf:resource="#biological_process_main"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0106237">
+  <rdfs:subClassOf rdf:resource="#molecular_function_main"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0106238">
+  <rdfs:subClassOf rdf:resource="#molecular_function_main"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0106239">
+  <rdfs:subClassOf rdf:resource="#molecular_function_main"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0106240">
+  <rdfs:subClassOf rdf:resource="#molecular_function_main"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0106242">
+  <rdfs:subClassOf rdf:resource="#molecular_function_main"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0106243">
+  <rdfs:subClassOf rdf:resource="#molecular_function_main"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0106244">
+  <rdfs:subClassOf rdf:resource="#molecular_function_main"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0140393">
+  <rdfs:subClassOf rdf:resource="#molecular_function_main"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0140395">
+  <rdfs:subClassOf rdf:resource="#molecular_function_main"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0140396">
+  <rdfs:subClassOf rdf:resource="#molecular_function_main"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0140397">
+  <rdfs:subClassOf rdf:resource="#molecular_function_main"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0140398">
+  <rdfs:subClassOf rdf:resource="#molecular_function_main"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0140405">
+  <rdfs:subClassOf rdf:resource="#biological_process_main"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0140407">
+  <rdfs:subClassOf rdf:resource="#molecular_function_main"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0150120">
+  <rdfs:subClassOf rdf:resource="#biological_process_main"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0150121">
+  <rdfs:subClassOf rdf:resource="#GO:0150120"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0150122">
+  <rdfs:subClassOf rdf:resource="#GO:0150120"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0150127">
+  <rdfs:subClassOf rdf:resource="#biological_process_main"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0150128">
+  <rdfs:subClassOf rdf:resource="#GO:0150127"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0150131">
+  <rdfs:subClassOf rdf:resource="#GO:0150128"/>
+  <rdfs:subClassOf rdf:resource="#GO:0150130"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0150124">
+  <rdfs:subClassOf rdf:resource="#GO:0150128"/>
+  <rdfs:subClassOf rdf:resource="#GO:0150123"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0150129">
+  <rdfs:subClassOf rdf:resource="#GO:0150127"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0150132">
+  <rdfs:subClassOf rdf:resource="#GO:0150129"/>
+  <rdfs:subClassOf rdf:resource="#GO:0150130"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0150125">
+  <rdfs:subClassOf rdf:resource="#GO:0150129"/>
+  <rdfs:subClassOf rdf:resource="#GO:0150123"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0150130">
+  <rdfs:subClassOf rdf:resource="#GO:0150127"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0150123">
+  <rdfs:subClassOf rdf:resource="#GO:0150127"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0150133">
+  <rdfs:subClassOf rdf:resource="#biological_process_main"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0150134">
+  <rdfs:subClassOf rdf:resource="#GO:0150133"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0150135">
+  <rdfs:subClassOf rdf:resource="#GO:0150133"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0150140">
+  <rdfs:subClassOf rdf:resource="#biological_process_main"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0150141">
+  <rdfs:subClassOf rdf:resource="#GO:0150140"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0150142">
+  <rdfs:subClassOf rdf:resource="#GO:0150140"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0150143">
+  <rdfs:subClassOf rdf:resource="#biological_process_main"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0150144">
+  <rdfs:subClassOf rdf:resource="#GO:0150143"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0150145">
+  <rdfs:subClassOf rdf:resource="#GO:0150143"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0150148">
+  <rdfs:subClassOf rdf:resource="#biological_process_main"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0150149">
+  <rdfs:subClassOf rdf:resource="#GO:0150148"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GO:0150150">
+  <rdfs:subClassOf rdf:resource="#GO:0150148"/>
+</owl:Class>
+
+
+</rdf:RDF>
